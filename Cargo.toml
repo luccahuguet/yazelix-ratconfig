@@ -5,7 +5,7 @@ edition = "2024"
 rust-version = "1.94"
 license = "Apache-2.0"
 description = "Reusable Ratatui config editor for TOML-backed settings"
-repository = "https://github.com/luccahuguet/ratconfig"
+repository = "https://github.com/Yazelix/ratconfig"
 
 [dependencies]
 ratatui = { version = "0.30.2", default-features = false, optional = true }

@@ -327,7 +327,7 @@ The optional crossterm runner enables bracketed paste and translates its key and
 Hosts that want ratconfig to own the crossterm terminal setup, draw loop, event reads, and key conversion can enable the optional runner:
 
 ```toml
-ratconfig = { git = "https://github.com/luccahuguet/ratconfig", branch = "main", features = ["crossterm-runner"] }
+ratconfig = { git = "https://github.com/Yazelix/ratconfig", branch = "main", features = ["crossterm-runner"] }
 ```
 
 ```rust,no_run
